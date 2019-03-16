@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "title": "Mr",
+      "full_name": "Vasile Cojusco",
+      "birthday": "2019-03-06",
+      "income": 50000,
+      "postCode": "SE3 7AA",
+      "house_number": 452,
+      "id": 1
+    },
+    {
+      "title": "Mr",
+      "full_name": "Vasile Cojusco",
+      "birthday": "2019-03-13",
+      "income": 50000,
+      "postCode": "SE3 7AA",
+      "house_number": 452,
+      "id": 2
+    }
+  ],
+  "cards": []
+}

@@ -1,28 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Switch, Route, withRouter} from 'react-router-dom';
+import UserForm from './components/UserForm/UserForm';
+import Cards from './containers/Cards/Cards';
+import './App.scss';
 
 class App extends Component {
+  state = {
+
+  };
+
+  formSubmitHandler = (user) => {
+    console.log(user);
+    const location = {
+      pathname: '/cards',
+      user: { user }
+    };
+
+    this.props.history.push(location);
+  };
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Switch>
+          <Route exact path={"/cards"} component={Cards}/>
+          <Route exact path={"/"} component={ () => <UserForm formSubmitHandler={this.formSubmitHandler} /> } />
+        </Switch>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

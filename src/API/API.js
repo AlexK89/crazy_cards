@@ -18,7 +18,9 @@ class API {
             body: JSON.stringify(obj)
         };
 
-        return fetch(url, params).then(response => response.json());
+        return fetch(url, params)
+            .then(response => response.json())
+            .catch(error => console.log(error));
     };
 
     static addUser (userObj) { return this.postData(this.USERS_API, userObj) };
@@ -26,6 +28,8 @@ class API {
 
     static getUsers () { return this.getData(this.USERS_API) };
     static getCards () { return this.getData(this.CARDS_API) };
+
+    static getUserById (id) { return this.getData(`${this.USERS_API}/${id}`) };
 }
 
 API.init();
