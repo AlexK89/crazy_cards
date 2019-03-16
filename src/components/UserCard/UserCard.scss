@@ -1,0 +1,61 @@
+.user_card {
+  width: 450px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2),
+  0 8px 16px rgba(0,0,0,0.1);
+  padding: 1em;
+  color: #434343;
+
+  &__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2em;
+
+    &__img_wrapper {
+      width: 70px;
+      height: 70px;
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: #6b23ee;
+    }
+
+    &__details {
+      padding: 0 1em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h4, p {
+        margin: 0;
+      }
+
+      p {
+        margin-top: 1em;
+        font-weight: 300;
+      }
+    }
+  }
+
+  &__body {
+    display: flex;
+    padding: 1em 0;
+
+    p > span {
+      font-weight: bold;
+    }
+
+    &__employment {
+      padding: 0 1em;
+      text-align: right;
+      width: 50%;
+      border-right: 1px solid #eee;
+    }
+
+    &__address {
+      padding: 0 1em;
+    }
+  }
+}
