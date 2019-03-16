@@ -2,22 +2,86 @@
   "users": [
     {
       "title": "Mr",
-      "full_name": "Vasile Cojusco",
-      "birthday": "2019-03-06",
+      "fullName": "Vasile Cojusco",
+      "birthday": "2019-03-13",
       "income": 50000,
-      "postCode": "SE3 7AA",
-      "house_number": 452,
+      "employmentStatus": "Full time",
+      "postcode": "SE3 7AA",
+      "houseNumber": 34,
       "id": 1
     },
     {
       "title": "Mr",
-      "full_name": "Vasile Cojusco",
+      "fullName": "Vasile Cojusco",
+      "birthday": "2019-03-14",
+      "income": 50000,
+      "employmentStatus": "Full time",
+      "postcode": "SE3 7AA",
+      "houseNumber": 34,
+      "id": 2
+    },
+    {
+      "title": "Mr",
+      "fullName": "Vasile Cojusco",
       "birthday": "2019-03-13",
       "income": 50000,
-      "postCode": "SE3 7AA",
-      "house_number": 452,
-      "id": 2
+      "employmentStatus": "Student",
+      "postcode": "SE3 7AA",
+      "houseNumber": 34,
+      "id": 3
+    },
+    {
+      "title": "Mr",
+      "fullName": "Vasile Cojusco",
+      "birthday": "2019-03-06",
+      "income": 13000,
+      "employmentStatus": "Student",
+      "postcode": "SE3 7AA",
+      "houseNumber": 34,
+      "id": 4
+    },
+    {
+      "title": "Mr",
+      "fullName": "Vasile Cojusco",
+      "birthday": "2019-03-12",
+      "income": 13000,
+      "employmentStatus": "Part time",
+      "postcode": "SE3 7AA",
+      "houseNumber": 34,
+      "id": 5
     }
   ],
-  "cards": []
+  "cards": [
+    {
+      "id": 1,
+      "cardType": "Anywhere Card",
+      "requirements": false,
+      "apr": "33.9%",
+      "balanceTransferDuration": 0,
+      "purchaseOfferDuration": 0,
+      "credit": 300
+    },
+    {
+      "id": 2,
+      "cardType": "Student Life",
+      "requirements": {
+        "employmentStatus": "Student"
+      },
+      "apr": "18.9%",
+      "balanceTransferDuration": 0,
+      "purchaseOfferDuration": 6,
+      "credit": 1200
+    },
+    {
+      "id": 3,
+      "cardType": "Liquid Card",
+      "requirements": {
+        "income": 16000
+      },
+      "apr": "33.9%",
+      "balanceTransferDuration": 12,
+      "purchaseOfferDuration": 6,
+      "credit": 3000
+    }
+  ]
 }

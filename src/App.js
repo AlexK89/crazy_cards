@@ -5,15 +5,10 @@ import Cards from './containers/Cards/Cards';
 import './App.scss';
 
 class App extends Component {
-  state = {
-
-  };
-
   formSubmitHandler = (user) => {
-    console.log(user);
     const location = {
       pathname: '/cards',
-      user: { user }
+      user
     };
 
     this.props.history.push(location);
