@@ -1,55 +1,6 @@
 {
   "users": [
-    {
-      "title": "Mr",
-      "fullName": "Vasile Cojusco",
-      "birthday": "2019-03-13",
-      "income": 50000,
-      "employmentStatus": "Full time",
-      "postcode": "SE3 7AA",
-      "houseNumber": 34,
-      "id": 1
-    },
-    {
-      "title": "Mr",
-      "fullName": "Vasile Cojusco",
-      "birthday": "2019-03-14",
-      "income": 50000,
-      "employmentStatus": "Full time",
-      "postcode": "SE3 7AA",
-      "houseNumber": 34,
-      "id": 2
-    },
-    {
-      "title": "Mr",
-      "fullName": "Vasile Cojusco",
-      "birthday": "2019-03-13",
-      "income": 50000,
-      "employmentStatus": "Student",
-      "postcode": "SE3 7AA",
-      "houseNumber": 34,
-      "id": 3
-    },
-    {
-      "title": "Mr",
-      "fullName": "Vasile Cojusco",
-      "birthday": "2019-03-06",
-      "income": 13000,
-      "employmentStatus": "Student",
-      "postcode": "SE3 7AA",
-      "houseNumber": 34,
-      "id": 4
-    },
-    {
-      "title": "Mr",
-      "fullName": "Vasile Cojusco",
-      "birthday": "2019-03-12",
-      "income": 13000,
-      "employmentStatus": "Part time",
-      "postcode": "SE3 7AA",
-      "houseNumber": 34,
-      "id": 5
-    }
+    
   ],
   "cards": [
     {
